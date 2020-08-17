@@ -2,6 +2,7 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEditor;
 
 public class Done_GameController : MonoBehaviour
 {
@@ -86,8 +87,9 @@ public class Done_GameController : MonoBehaviour
         gameOver = true;
     }
 
-    public void RestartGame ()
+    public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
 }
