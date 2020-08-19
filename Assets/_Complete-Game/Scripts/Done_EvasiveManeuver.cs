@@ -10,7 +10,7 @@ public class Done_EvasiveManeuver : MonoBehaviour
 	public Vector2 startWait;
 	public Vector2 maneuverTime;
 	public Vector2 maneuverWait;
-
+	private Rigidbody rb;
 	private float currentSpeed;
 	private float targetManeuver;
 
